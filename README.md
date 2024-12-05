@@ -1,2 +1,2 @@
-# Quantized-YOLOv8-for-Research-Purpose
-This is a repository for a quantized version of YOLOv8m. This quantized version is solely for use only in UP CARE's Team F6's research.
+# Team F6 UP CARE
+This repository contains files and folders related to the research of Team F6 UP CARE, which is developing a camera-based monitoring system that ensures the safety of the occupants inside an office room.
