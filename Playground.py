@@ -9,7 +9,7 @@ result = model.train(data='data.yaml', epochs = 1, imgsz = 640) #device = 0 DOES
 
 from ultralytics import YOLO
 
-model = YOLO('custom_model.pt') #Change to custom model
+model = YOLO('YOLOv8_v3_int8_2_edgetpu.tflite') #Change to custom model
 
 #source = 0 means using the camera
 results = model.track(source = "sample_vids/sample_vid.mp4", save = True, show=True, tracker='bytetrack.yaml')
